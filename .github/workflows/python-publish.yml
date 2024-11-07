@@ -24,8 +24,8 @@ jobs:
 
       - name: Publish to PyPI
         env:
-          PYPI_USERNAME: ${{ secrets.PYPI_USERNAME }}
-          PYPI_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+          PYPI_USERNAME: ${{ secrets.USERNAME }}
+          PYPI_PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           python setup.py sdist
           twine upload dist/*
