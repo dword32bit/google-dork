@@ -45,6 +45,7 @@ dork.display_results(results)
 Berikut adalah contoh penggunaan library ini:
 ```python
 import argparse
+from google_dork import GoogleDork
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--domain", help="Domain yang ingin dicari")
