@@ -31,8 +31,8 @@ Google Dork is a CLI tool that enables you to search Google with ease and speed.
 **Contributors**
 ------------
 
-* [bri-anadi] - creator of Google Dork
-* [dword32bit](mailto:introboy333@gmail.com) - creator of Google Dork
+* [bri-anadi] (https://github.com/bri-anadi) - creator of Google Dork
+* [dword32bit](https://github.com/dword32bit) - creator of Google Dork
 
 **License**
 -------
