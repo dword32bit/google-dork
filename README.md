@@ -30,9 +30,9 @@ Google Dork is a CLI tool that enables you to search Google with ease and speed.
 
 **Documentations**
 -----------------
-*[here](https://github.com/dword32bit/google-dork/blob/main/documentations.md)
+*[here](https://github.com/dword32bit/google-dork/blob/main/documentations.md)*
 
-*or
+*or*
 if you pusing, you can use like my code [simpledork](https://github.com/dword32bit/simpledork.git)
 
 **Contributors**
