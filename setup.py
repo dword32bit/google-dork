@@ -4,7 +4,7 @@ setuptools.setup(
     name='google_dork',
     version='1.0',
     packages=['google_dork'],
-    author='dword32bit',
+    author='bri-anadi & dword32bit',
     author_email='introboy333@gmail.com',
     description='Google Dorking CLI Tool without API',
     long_description=open('README.md').read(),
