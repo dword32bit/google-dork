@@ -52,8 +52,3 @@ Google Dork is licensed under the MIT License. You are free to use, copy, and mo
 * Python 3.6+
 * BeautifulSoup 4
 * requests 2.25+
-
-**Changelog**
--------------
-
-All changes will be logged here.
