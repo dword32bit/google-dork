@@ -30,9 +30,7 @@ Google Dork is a CLI tool that enables you to search Google with ease and speed.
 
 **Documentations**
 -----------------
-
-* `google_dork -d example.com -f pdf` (search for PDF files on example.com)
-* `google_dork -t "sensitive data" -i "login page"` (search for "sensitive data" on login pages)
+*[here](https://github.com/dword32bit/google-dork/blob/main/documentations.md)
 
 **Contributors**
 ------------
