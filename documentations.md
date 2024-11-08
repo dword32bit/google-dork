@@ -1,6 +1,14 @@
 **Menggunakan Modul GoogleDork**
 =============================
 
+**Pasang Modul**
+---------------
+pasang library google-dork pada PC/VirtualEnv
+
+```bash
+pip install google-dork
+```
+
 **Impor Modul**
 ---------------
 
