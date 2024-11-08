@@ -1,73 +1,81 @@
-**Menggunakan Modul GoogleDork**
+Here's your `documentation.md` translated to English:
+
+---
+
+**Using the GoogleDork Module**  
 =============================
 
-**Pasang Modul**
----------------
-pasang library google-dork pada PC/VirtualEnv
+**Install the Module**  
+---------------  
+Install the `google-dork` library on your PC or Virtual Environment:
 
 ```bash
 pip install google-dork
 ```
 
-**Impor Modul**
----------------
+**Import the Module**  
+---------------  
 
-Untuk menggunakan modul GoogleDork, Anda perlu mengimpornya terlebih dahulu:
+To use the GoogleDork module, you need to import it first:
 ```python
 from google_dork import GoogleDork
 ```
-**Membuat Instans GoogleDork**
------------------------------
 
-Untuk menggunakan modul GoogleDork, Anda perlu membuat instans dari kelas `GoogleDork`. Anda dapat membuat instans dengan beberapa parameter opsional:
+**Creating an Instance of GoogleDork**  
+-----------------------------  
 
-* `domain`: Domain yang ingin dicari (opsional)
-* `filetype`: Jenis file yang ingin dicari (opsional)
-* `intext`: Teks yang ingin dicari dalam konten halaman (opsional)
-* `intitle`: Teks yang ingin dicari dalam judul halaman (opsional)
-* `inurl`: Teks yang ingin dicari dalam URL halaman (opsional)
+To use the GoogleDork module, you need to create an instance of the `GoogleDork` class. You can create an instance with several optional parameters:
 
-Contoh:
+* `domain`: The domain you want to search (optional)
+* `filetype`: The type of file you want to search for (optional)
+* `intext`: Text you want to search within the page content (optional)
+* `intitle`: Text you want to search within the page title (optional)
+* `inurl`: Text you want to search within the page URL (optional)
+
+Example:
 ```python
 dork = GoogleDork(
     domain="example.com",
     filetype="pdf",
-    intext="konten yang dicari",
-    intitle="judul yang dicari",
-    inurl="url yang dicari"
+    intext="content to search",
+    intitle="title to search",
+    inurl="url to search"
 )
 ```
-**Metode Search**
------------------
 
-Metode `search()` melakukan pencarian menggunakan dork yang telah ditentukan dan mengembalikan hasil pencarian dalam bentuk daftar.
+**Search Method**  
+-----------------  
 
-Contoh:
+The `search()` method performs a search using the specified dork and returns the search results in a list format.
+
+Example:
 ```python
 results = dork.search()
 ```
-**Metode Display Results**
--------------------------
 
-Metode `display_results()` menampilkan hasil pencarian dalam bentuk yang lebih mudah dibaca.
+**Display Results Method**  
+-------------------------  
 
-Contoh:
+The `display_results()` method displays the search results in a more readable format.
+
+Example:
 ```python
 dork.display_results(results)
 ```
-**Contoh Penggunaan**
-----------------------
 
-Berikut adalah contoh penggunaan modul GoogleDork:
+**Usage Example**  
+----------------------  
+
+Below is an example of how to use the GoogleDork module:
 ```python
 from google_dork import GoogleDork
 
 dork = GoogleDork(
     domain="example.com",
     filetype="pdf",
-    intext="konten yang dicari",
-    intitle="judul yang dicari",
-    inurl="url yang dicari"
+    intext="content to search",
+    intitle="title to search",
+    inurl="url to search"
 )
 
 results = dork.search()
