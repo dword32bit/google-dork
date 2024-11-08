@@ -3,11 +3,7 @@
 
 **A Powerful CLI Tool for Google Search**
 
-Google Dork is a CLI tool that enables you to search Google with ease and speed. With Google Dork, you can search for:
-
-* Structured domain information
-* Quickly search Google with complex queries
-* Search for domain, filetype, intext, intitle, and inurl information with ease
+Google Dork is a CLI tool that enables you to search Google with ease and speed.
 
 **Features**
 --------
