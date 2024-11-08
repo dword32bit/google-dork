@@ -1,0 +1,2 @@
+[console_scripts]
+gdork = google_dork.cli:main

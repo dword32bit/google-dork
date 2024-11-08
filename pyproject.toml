@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "google_dork"
+version = "1.1.1"
+authors = [
+    {name = "bri-anadi & dword32bit", email = "introboy333@gmail.com"},
+]
+description = "Google Dorking CLI Tool without API"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+keywords = ["google", "dork", "dorking", "search", "security", "osint"]
+dependencies = [
+    "requests>=2.32.3",
+    "beautifulsoup4>=4.12.3",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dword32bit/google-dork"
+"Bug Tracker" = "https://github.com/dword32bit/google-dork/issues"
+
+[project.scripts]
+gdork = "google_dork.cli:main"

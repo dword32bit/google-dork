@@ -1,4 +1,3 @@
-import argparse
 import requests
 from bs4 import BeautifulSoup
 import urllib.parse
@@ -45,14 +44,16 @@ class GoogleDork:
 
         time.sleep(random.uniform(1, 3))
 
-        response = requests.get(url, headers=headers)
-        if response.status_code == 200:
+        try:
+            response = requests.get(url, headers=headers, timeout=10)
+            response.raise_for_status()
+
             if "Our systems have detected unusual traffic" in response.text:
                 print("Blocked by Google. Try again later or adjust your query.")
                 return []
             return self.parse_results(response.text)
-        else:
-            print(f"Failed to fetch results, status code: {response.status_code}")
+        except requests.RequestException as e:
+            print(f"Error during request: {str(e)}")
             return []
 
     def parse_results(self, html):

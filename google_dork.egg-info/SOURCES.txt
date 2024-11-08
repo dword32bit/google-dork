@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+google_dork/__init__.py
+google_dork/cli.py
+google_dork/main.py
+google_dork.egg-info/PKG-INFO
+google_dork.egg-info/SOURCES.txt
+google_dork.egg-info/dependency_links.txt
+google_dork.egg-info/entry_points.txt
+google_dork.egg-info/requires.txt
+google_dork.egg-info/top_level.txt
+tests/test_gdork.py
