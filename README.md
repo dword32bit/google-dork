@@ -38,8 +38,9 @@ if you pusing, you can use like my code [simpledork](https://github.com/dword32b
 **Contributors**
 ------------
 
-* [bri-anadi](https://github.com/bri-anadi) - creator of Google Dork CLI without API
 * [dword32bit](https://github.com/dword32bit) - creator of Google Dork CLI without API
+
+* [bri-anadi](https://github.com/bri-anadi) - creator of Google Dork CLI without API
 
 **License**
 -------
