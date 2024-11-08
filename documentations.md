@@ -1,5 +1,3 @@
-Here's your `documentation.md` translated to English:
-
 ---
 
 **Using the GoogleDork Module**  
