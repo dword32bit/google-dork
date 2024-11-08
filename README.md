@@ -19,7 +19,7 @@ Google Dork is a CLI tool that enables you to search Google with ease and speed.
 **Getting Started**
 ---------------
 
-1. Install Google Dork using `pip install google_dork`
+1. Install Google Dork using `pip install google-dork`
 2. Run `gdork -h` for help
 
 **Project Based Usage**
