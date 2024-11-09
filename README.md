@@ -5,7 +5,7 @@
 
 Google Dork is a CLI tool that enables you to search Google with ease and speed.
 
-****Disclaimer****
+**Disclaimer**
 Use Proxy or VPN before run it
 
 **Features**
